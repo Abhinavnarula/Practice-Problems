@@ -45,7 +45,7 @@ class LinkedList1 {
         Node node = new Node(new_data);
 
         if (head == null) {
-            head = node;
+            head = new Node(new_data);
             return;
         }
 
@@ -63,7 +63,7 @@ class LinkedList1 {
 
     public static void main(String[] args) {
         LinkedList1 llist = new LinkedList1();
-        llist.insert_last(1);
+        llist.insert_first(1);
         llist.insert_last(2);
         llist.insert_last(3);
         llist.printfunction();
