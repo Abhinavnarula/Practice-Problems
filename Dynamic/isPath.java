@@ -2,7 +2,7 @@ class Main {
     public static void main(String[] args) {
         int row = 2;
         int col = 2;
-        int arr[][] = { { 1, 0 }, { 0, 1 } };
+        int arr[][] = { { 1, 1 }, { 0, 1 } };
         int cost = 3;
         String res = isPathPossible(arr, row, col, cost);
         System.out.print(res);
