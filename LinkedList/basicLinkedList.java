@@ -18,6 +18,7 @@ class LinkedList {
             System.out.print(temp.data + " > ");
             temp = temp.next;
         }
+        System.out.println("");
     }
 
     public static void main(String[] args) {

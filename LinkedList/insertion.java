@@ -1,24 +1,4 @@
-class LinkedList1 {
-
-    Node head; // head of the linkedlist.
-
-    static class Node { // class is made static so that main function can access.
-
-        int data; // data inside current node.
-        Node next; // pointer used for pointing to next node.
-
-        Node(int d) { // Constructor for initializing the node with the forementioned value.
-            this.data = d;
-        }
-    }
-
-    void printfunction() {
-        Node temp = head;
-        while (temp != null) {
-            System.out.print(temp.data + " > ");
-            temp = temp.next;
-        }
-    }
+public class insertion extends LinkedList {
 
     void insert_first(int new_data) {
         Node node = new Node(new_data);
@@ -57,15 +37,18 @@ class LinkedList1 {
             temp = temp.next;
         }
 
-        temp.next = temp;
+        temp.next = node;
         return;
     }
 
     public static void main(String[] args) {
-        LinkedList1 llist = new LinkedList1();
+        insertion llist = new insertion();
         llist.insert_first(1);
         llist.insert_last(2);
         llist.insert_last(3);
+        llist.insert_last(4);
+        llist.insert_last(5);
+        llist.insert_last(6);
         llist.printfunction();
     }
 
