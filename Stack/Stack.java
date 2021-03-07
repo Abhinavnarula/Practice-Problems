@@ -1,4 +1,4 @@
-public class Stack {
+class Stack {
     static final int max = 1000;
     int arr[] = new int[max];
     int top;
