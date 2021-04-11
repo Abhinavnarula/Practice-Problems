@@ -87,7 +87,7 @@ class delete extends insertion_bst {
         levelOrderTraversal(root);
 
         System.out.println("");
-        
+
         deletion(root, 4);
 
         levelOrderTraversal(root);

@@ -2,10 +2,6 @@ public class swap extends insertion {
 
     void swapElement(int x, int y) {
         Node xNode = null;
-        Node prev_x = null;
-
-        Node yNode = null;
-        Node prev_y = null;
 
         Node temp = head;
 
