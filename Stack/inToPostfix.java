@@ -21,6 +21,7 @@ public class inToPostfix {
         
         for (int i = 0; i < exp.length(); i++) {
             char c = exp.charAt(i);
+            
             if (Character.isLetterOrDigit(c))
                 res += c;
             else if (c == '(')
