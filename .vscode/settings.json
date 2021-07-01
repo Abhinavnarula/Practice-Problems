@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "sorting",
+        "Stack",
+        "LinkedList",
+        "Heap",
+        "Greedy Algorithm",
+        "Dynamic",
+        "Binary Tree",
+        "Arrays",
+        "450dsa",
+        "Sliding Window"
+    ]
+}

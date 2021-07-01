@@ -85,14 +85,12 @@ public class MinHeap {
 
     public static void main(String[] args) {
         MinHeap heap = new MinHeap(20);
+        heap.insert(6);
         heap.insert(5);
         heap.insert(3);
-        heap.insert(17);
+        heap.insert(2);
+        heap.insert(8);
         heap.insert(10);
-        heap.insert(84);
-        heap.insert(19);
-        heap.insert(6);
-        heap.insert(22);
         heap.insert(9);
 
         heap.minheap();

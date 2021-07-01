@@ -1,6 +1,6 @@
 // Given a sorted array and a number x, find a pair in array whose sum is closest to x. Use two pointer approach.
 
-public class sort {
+class pair {
 
     static void twopointer(int arr[], int n, int x){
         int left = 0;

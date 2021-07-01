@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MinHeap",
+            "request": "launch",
+            "mainClass": "MinHeap",
+            "projectName": "Practice-Problems_f8703ecd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Practice-Problems_f8703ecd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Height",
+            "request": "launch",
+            "mainClass": "Height",
+            "projectName": "Practice-Problems_f8703ecd"
+        },
+        {
+            "type": "java",
+            "name": "Launch sort",
+            "request": "launch",
+            "mainClass": "sort",
+            "projectName": "Practice-Problems_f8703ecd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch flag",
+            "request": "launch",
+            "mainClass": "flag",
+            "projectName": "Practice-Problems_f8703ecd"
+        },
+        {
+            "type": "java",
+            "name": "Launch posNeg",
+            "request": "launch",
+            "mainClass": "posNeg",
+            "projectName": "Practice-Problems_f8703ecd"
+        },
+        {
+            "type": "java",
+            "name": "Launch result",
+            "request": "launch",
+            "mainClass": "result",
+            "projectName": "Practice-Problems_f8703ecd"
+        }
+    ]
+}
